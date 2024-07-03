@@ -25,6 +25,17 @@ The Chai contract is accompanied by a Netlify frontend that allows users to inte
 
 ## Setting up the Project
 
+1. Clone the repository
+
+```
+git clone https://github.com/Pratima-M1/Chai-ReactApp.git
+```
+
+```
+cd Chai-ReactApp
+
+```
+
 ### Hardhat Setup
 
 To set up the Hardhat project, run the following commands:
