@@ -15,12 +15,12 @@ async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function customVerify(assetRegistryaddress, args) {
+async function customVerify(contractAddress, args) {
   console.log("Verifying...");
   await sleep(120 * 1000);
   try {
     await run("verify:verify", {
-      address: assetRegistryaddress,
+      address: contractAddress,
       constructorArguments: args,
     });
   } catch (e) {
