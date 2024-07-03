@@ -1,0 +1,10 @@
+git clone https://github.com/Pratima-M1/Chai-ReactApp.git
+cd Chai-ReactApp
+npm install
+replace PRIVATE_KEY
+RPC_URL
+npx hardhat compile
+After hardhat project install react npm install create-react-app
+npx create-react-app client
+cd client
+npm start
