@@ -1,14 +1,14 @@
 const hre = require("hardhat");
 
 async function main() {
-  /* const chai = await hre.ethers.getContractFactory("chai");
+  const chai = await hre.ethers.getContractFactory("chai");
   const contract = await chai.deploy(); //instance of contract
 
   await contract.waitForDeployment();
   console.log("Address of contract:", contract.target);
   const contractAddress = contract.target;
-   */ //await contract.deploymentTransaction(6);
-  await customVerify("0x0482ee1b33857d3B674535710bF53656c1cDf3Ee", []);
+  await contract.deploymentTransaction(6);
+  await customVerify(contractAddress, []);
 }
 
 async function sleep(ms) {
